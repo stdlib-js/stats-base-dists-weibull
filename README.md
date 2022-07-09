@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.weibull;
+})();
 })();
 </script>
 ```
@@ -144,9 +146,11 @@ var y = dist.pdf( 0.8 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( weibull ) );
 
+})();
 })();
 </script>
 </body>
@@ -238,35 +242,35 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/weibull/ctor]: https://github.com/stdlib-js/stats-base-dists-weibull-ctor/tree/umd
+[@stdlib/stats/base/dists/weibull/ctor]: https://github.com/stdlib-js/stats-base-dists-weibull-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/entropy]: https://github.com/stdlib-js/stats-base-dists-weibull-entropy/tree/umd
+[@stdlib/stats/base/dists/weibull/entropy]: https://github.com/stdlib-js/stats-base-dists-weibull-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/kurtosis]: https://github.com/stdlib-js/stats-base-dists-weibull-kurtosis/tree/umd
+[@stdlib/stats/base/dists/weibull/kurtosis]: https://github.com/stdlib-js/stats-base-dists-weibull-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/mean]: https://github.com/stdlib-js/stats-base-dists-weibull-mean/tree/umd
+[@stdlib/stats/base/dists/weibull/mean]: https://github.com/stdlib-js/stats-base-dists-weibull-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/median]: https://github.com/stdlib-js/stats-base-dists-weibull-median/tree/umd
+[@stdlib/stats/base/dists/weibull/median]: https://github.com/stdlib-js/stats-base-dists-weibull-median/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/mode]: https://github.com/stdlib-js/stats-base-dists-weibull-mode/tree/umd
+[@stdlib/stats/base/dists/weibull/mode]: https://github.com/stdlib-js/stats-base-dists-weibull-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/skewness]: https://github.com/stdlib-js/stats-base-dists-weibull-skewness/tree/umd
+[@stdlib/stats/base/dists/weibull/skewness]: https://github.com/stdlib-js/stats-base-dists-weibull-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/stdev]: https://github.com/stdlib-js/stats-base-dists-weibull-stdev/tree/umd
+[@stdlib/stats/base/dists/weibull/stdev]: https://github.com/stdlib-js/stats-base-dists-weibull-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/variance]: https://github.com/stdlib-js/stats-base-dists-weibull-variance/tree/umd
+[@stdlib/stats/base/dists/weibull/variance]: https://github.com/stdlib-js/stats-base-dists-weibull-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/cdf]: https://github.com/stdlib-js/stats-base-dists-weibull-cdf/tree/umd
+[@stdlib/stats/base/dists/weibull/cdf]: https://github.com/stdlib-js/stats-base-dists-weibull-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/logcdf]: https://github.com/stdlib-js/stats-base-dists-weibull-logcdf/tree/umd
+[@stdlib/stats/base/dists/weibull/logcdf]: https://github.com/stdlib-js/stats-base-dists-weibull-logcdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/logpdf]: https://github.com/stdlib-js/stats-base-dists-weibull-logpdf/tree/umd
+[@stdlib/stats/base/dists/weibull/logpdf]: https://github.com/stdlib-js/stats-base-dists-weibull-logpdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/mgf]: https://github.com/stdlib-js/stats-base-dists-weibull-mgf/tree/umd
+[@stdlib/stats/base/dists/weibull/mgf]: https://github.com/stdlib-js/stats-base-dists-weibull-mgf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/pdf]: https://github.com/stdlib-js/stats-base-dists-weibull-pdf/tree/umd
+[@stdlib/stats/base/dists/weibull/pdf]: https://github.com/stdlib-js/stats-base-dists-weibull-pdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/weibull/quantile]: https://github.com/stdlib-js/stats-base-dists-weibull-quantile/tree/umd
+[@stdlib/stats/base/dists/weibull/quantile]: https://github.com/stdlib-js/stats-base-dists-weibull-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
