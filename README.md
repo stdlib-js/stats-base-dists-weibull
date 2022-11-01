@@ -24,38 +24,30 @@ limitations under the License.
 
 > Weibull distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-weibull
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-weibull = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var weibull = require( 'path/to/vendor/umd/stats-base-dists-weibull/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.weibull;
-})();
-</script>
+var weibull = require( '@stdlib/stats-base-dists-weibull' );
 ```
 
 #### weibull
@@ -136,21 +128,11 @@ var y = dist.pdf( 0.8 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var weibull = require( '@stdlib/stats-base-dists-weibull' );
 
 console.log( objectKeys( weibull ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -238,35 +220,35 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/weibull/ctor]: https://github.com/stdlib-js/stats-base-dists-weibull-ctor/tree/umd
+[@stdlib/stats/base/dists/weibull/ctor]: https://github.com/stdlib-js/stats-base-dists-weibull-ctor
 
-[@stdlib/stats/base/dists/weibull/entropy]: https://github.com/stdlib-js/stats-base-dists-weibull-entropy/tree/umd
+[@stdlib/stats/base/dists/weibull/entropy]: https://github.com/stdlib-js/stats-base-dists-weibull-entropy
 
-[@stdlib/stats/base/dists/weibull/kurtosis]: https://github.com/stdlib-js/stats-base-dists-weibull-kurtosis/tree/umd
+[@stdlib/stats/base/dists/weibull/kurtosis]: https://github.com/stdlib-js/stats-base-dists-weibull-kurtosis
 
-[@stdlib/stats/base/dists/weibull/mean]: https://github.com/stdlib-js/stats-base-dists-weibull-mean/tree/umd
+[@stdlib/stats/base/dists/weibull/mean]: https://github.com/stdlib-js/stats-base-dists-weibull-mean
 
-[@stdlib/stats/base/dists/weibull/median]: https://github.com/stdlib-js/stats-base-dists-weibull-median/tree/umd
+[@stdlib/stats/base/dists/weibull/median]: https://github.com/stdlib-js/stats-base-dists-weibull-median
 
-[@stdlib/stats/base/dists/weibull/mode]: https://github.com/stdlib-js/stats-base-dists-weibull-mode/tree/umd
+[@stdlib/stats/base/dists/weibull/mode]: https://github.com/stdlib-js/stats-base-dists-weibull-mode
 
-[@stdlib/stats/base/dists/weibull/skewness]: https://github.com/stdlib-js/stats-base-dists-weibull-skewness/tree/umd
+[@stdlib/stats/base/dists/weibull/skewness]: https://github.com/stdlib-js/stats-base-dists-weibull-skewness
 
-[@stdlib/stats/base/dists/weibull/stdev]: https://github.com/stdlib-js/stats-base-dists-weibull-stdev/tree/umd
+[@stdlib/stats/base/dists/weibull/stdev]: https://github.com/stdlib-js/stats-base-dists-weibull-stdev
 
-[@stdlib/stats/base/dists/weibull/variance]: https://github.com/stdlib-js/stats-base-dists-weibull-variance/tree/umd
+[@stdlib/stats/base/dists/weibull/variance]: https://github.com/stdlib-js/stats-base-dists-weibull-variance
 
-[@stdlib/stats/base/dists/weibull/cdf]: https://github.com/stdlib-js/stats-base-dists-weibull-cdf/tree/umd
+[@stdlib/stats/base/dists/weibull/cdf]: https://github.com/stdlib-js/stats-base-dists-weibull-cdf
 
-[@stdlib/stats/base/dists/weibull/logcdf]: https://github.com/stdlib-js/stats-base-dists-weibull-logcdf/tree/umd
+[@stdlib/stats/base/dists/weibull/logcdf]: https://github.com/stdlib-js/stats-base-dists-weibull-logcdf
 
-[@stdlib/stats/base/dists/weibull/logpdf]: https://github.com/stdlib-js/stats-base-dists-weibull-logpdf/tree/umd
+[@stdlib/stats/base/dists/weibull/logpdf]: https://github.com/stdlib-js/stats-base-dists-weibull-logpdf
 
-[@stdlib/stats/base/dists/weibull/mgf]: https://github.com/stdlib-js/stats-base-dists-weibull-mgf/tree/umd
+[@stdlib/stats/base/dists/weibull/mgf]: https://github.com/stdlib-js/stats-base-dists-weibull-mgf
 
-[@stdlib/stats/base/dists/weibull/pdf]: https://github.com/stdlib-js/stats-base-dists-weibull-pdf/tree/umd
+[@stdlib/stats/base/dists/weibull/pdf]: https://github.com/stdlib-js/stats-base-dists-weibull-pdf
 
-[@stdlib/stats/base/dists/weibull/quantile]: https://github.com/stdlib-js/stats-base-dists-weibull-quantile/tree/umd
+[@stdlib/stats/base/dists/weibull/quantile]: https://github.com/stdlib-js/stats-base-dists-weibull-quantile
 
 <!-- </toc-links> -->
 
