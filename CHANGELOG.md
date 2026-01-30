@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-07-21)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -47,6 +47,17 @@ A total of 10 issues were closed in this release:
 
 <details>
 
+-   [`edccce1`](https://github.com/stdlib-js/stdlib/commit/edccce1444f24145380aa51e8439f95928bda403) - **docs:** replace manual `for` loop in examples [(#9479)](https://github.com/stdlib-js/stdlib/pull/9479) _(by Harsh Yadav)_
+-   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
+-   [`2cabe18`](https://github.com/stdlib-js/stdlib/commit/2cabe1887e6a502a306b70580fb5d038da0917f3) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`5bee874`](https://github.com/stdlib-js/stdlib/commit/5bee874ee2684a62bee21bcb73fbcdf3ab99b159) - **test:** add tests to achieve full coverage _(by Philipp Burckhardt)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`4589cee`](https://github.com/stdlib-js/stdlib/commit/4589cee4e69b2a4c4a433321f413824a69eebb6e) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`7e24b8b`](https://github.com/stdlib-js/stdlib/commit/7e24b8ba0fff87a56584bb1a2fa106eb88267596) - **test:** slightly increase tolerances for passing tests _(by Philipp Burckhardt)_
 -   [`58ce62b`](https://github.com/stdlib-js/stdlib/commit/58ce62b213c03bb13d4effe9a970327d5588bf67) - **docs:** update `stats/base/dists/weibull` examples to use Greek symbols _(by Philipp Burckhardt)_
 -   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
@@ -63,7 +74,7 @@ A total of 10 issues were closed in this release:
 -   [`8f7ce32`](https://github.com/stdlib-js/stdlib/commit/8f7ce3212535ee00b668ec69fdf8f94276104855) - **chore:** clean-up _(by Athan Reines)_
 -   [`aab376a`](https://github.com/stdlib-js/stdlib/commit/aab376a914ab10e12c96d747034d1f989bf95125) - **feat:** added C implementation for `stats/base/dists/weibull/mode` [(#4324)](https://github.com/stdlib-js/stdlib/pull/4324) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`1ebcfd6`](https://github.com/stdlib-js/stdlib/commit/1ebcfd618beaf055a7097c89f3794d507fd14947) - **bench:** refactor random number generation in `stats/base/dists/weibull` [(#5342)](https://github.com/stdlib-js/stdlib/pull/5342) _(by Gaurav)_
+-   [`1ebcfd6`](https://github.com/stdlib-js/stdlib/commit/1ebcfd618beaf055a7097c89f3794d507fd14947) - **bench:** refactor random number generation in `stats/base/dists/weibull` [(#5342)](https://github.com/stdlib-js/stdlib/pull/5342) _(by Gaurav Jadhav)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`f505ed5`](https://github.com/stdlib-js/stdlib/commit/f505ed56b0c0cc20458f9e51760d45d5abd60b36) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`58e26cb`](https://github.com/stdlib-js/stdlib/commit/58e26cbf1882734b423124a001180661a6c377bb) - **chore:** fix parameter names, return annotations, and example code _(by Philipp Burckhardt)_
@@ -99,14 +110,15 @@ A total of 10 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
 -   Athan Reines
 -   Dhruv Arvind Singh
 -   Divyansh Seth
--   Gaurav
+-   Gaurav Jadhav
 -   Gururaj Gurram
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 -   Vinit Pandit
