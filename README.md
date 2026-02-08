@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import weibull from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-weibull/tags). For example,
+
+```javascript
 import weibull from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Weibull, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@v0.3.1-esm/index.mjs';
+import { Weibull, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@esm/index.mjs';
 ```
 
 #### weibull
@@ -136,7 +141,7 @@ var y = dist.pdf( 0.8 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import weibull from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@v0.3.1-esm/index.mjs';
+import weibull from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-weibull@esm/index.mjs';
 
 console.log( objectKeys( weibull ) );
 
