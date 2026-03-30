@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-09)
+## Unreleased (2026-03-30)
 
 <section class="commits">
 
@@ -12,6 +12,11 @@
 
 <details>
 
+-   [`86e456b`](https://github.com/stdlib-js/stdlib/commit/86e456b4797c0520c1b019037bf18c6cca629a0c) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/pdf` [(#11119)](https://github.com/stdlib-js/stdlib/pull/11119) _(by Om-A-osc)_
+-   [`cd05946`](https://github.com/stdlib-js/stdlib/commit/cd05946c9680de3ec0a5f3d4f67020f7ab71b03e) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/logcdf` [(#11118)](https://github.com/stdlib-js/stdlib/pull/11118) _(by Om-A-osc)_
+-   [`de1b9a2`](https://github.com/stdlib-js/stdlib/commit/de1b9a2315bb6d25e755bf63979be4b561e220b8) - **docs:** fix incorrect return value in C usage section `weibull/logpdf` [(#10956)](https://github.com/stdlib-js/stdlib/pull/10956) _(by Om-A-osc)_
+-   [`9604482`](https://github.com/stdlib-js/stdlib/commit/9604482fa07f495e6438b564910f6c3ba3185fb6) - **docs:** fix incorrect return value in C usage section `weibull/pdf` [(#10957)](https://github.com/stdlib-js/stdlib/pull/10957) _(by Om-A-osc)_
+-   [`0b92622`](https://github.com/stdlib-js/stdlib/commit/0b92622d558b78f814f4b9d6cc646c33e7d109c9) - **docs:** fix C example codeblock in `stats/base/dists/weibull/kurtosis/README.md` [(#10939)](https://github.com/stdlib-js/stdlib/pull/10939) _(by Om-A-osc)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +29,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Om-A-osc
 -   Philipp Burckhardt
 
 </section>
