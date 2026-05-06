@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-30)
+## Unreleased (2026-05-06)
 
 <section class="commits">
 
@@ -12,6 +12,9 @@
 
 <details>
 
+-   [`6a4d961`](https://github.com/stdlib-js/stdlib/commit/6a4d9614841138f791bfad6fc7d694dffff81a6c) - **docs:** propagate recent doc fixes across `stats/base/dists/*` [(#11815)](https://github.com/stdlib-js/stdlib/pull/11815) _(by Philipp Burckhardt)_
+-   [`f24fece`](https://github.com/stdlib-js/stdlib/commit/f24fece54fb56b188cf8052c45d9b7c3de79c9fb) - **chore:** add missing keyword [(#11766)](https://github.com/stdlib-js/stdlib/pull/11766) _(by Philipp Burckhardt)_
+-   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`86e456b`](https://github.com/stdlib-js/stdlib/commit/86e456b4797c0520c1b019037bf18c6cca629a0c) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/pdf` [(#11119)](https://github.com/stdlib-js/stdlib/pull/11119) _(by Om-A-osc)_
 -   [`cd05946`](https://github.com/stdlib-js/stdlib/commit/cd05946c9680de3ec0a5f3d4f67020f7ab71b03e) - **docs:** fix incorrect return annotation in `stats/base/dists/weibull/logcdf` [(#11118)](https://github.com/stdlib-js/stdlib/pull/11118) _(by Om-A-osc)_
 -   [`de1b9a2`](https://github.com/stdlib-js/stdlib/commit/de1b9a2315bb6d25e755bf63979be4b561e220b8) - **docs:** fix incorrect return value in C usage section `weibull/logpdf` [(#10956)](https://github.com/stdlib-js/stdlib/pull/10956) _(by Om-A-osc)_
