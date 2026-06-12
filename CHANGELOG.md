@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-06)
+## Unreleased (2026-06-12)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`93d712b`](https://github.com/stdlib-js/stdlib/commit/93d712b9f648a28afc6f039173a3715139a90991) - update parameter names [(#12487)](https://github.com/stdlib-js/stdlib/pull/12487)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,10 @@
 
 <details>
 
+-   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
+-   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
+-   [`93d712b`](https://github.com/stdlib-js/stdlib/commit/93d712b9f648a28afc6f039173a3715139a90991) - **fix:** update parameter names [(#12487)](https://github.com/stdlib-js/stdlib/pull/12487) _(by Philipp Burckhardt)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6a4d961`](https://github.com/stdlib-js/stdlib/commit/6a4d9614841138f791bfad6fc7d694dffff81a6c) - **docs:** propagate recent doc fixes across `stats/base/dists/*` [(#11815)](https://github.com/stdlib-js/stdlib/pull/11815) _(by Philipp Burckhardt)_
 -   [`f24fece`](https://github.com/stdlib-js/stdlib/commit/f24fece54fb56b188cf8052c45d9b7c3de79c9fb) - **chore:** add missing keyword [(#11766)](https://github.com/stdlib-js/stdlib/pull/11766) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
@@ -32,8 +46,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
 
