@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-01)
+## Unreleased (2026-08-12)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`ed143dc`](https://github.com/stdlib-js/stdlib/commit/ed143dcf897b1fe7309d1686ee63ce605e3f545a) - **chore:** add keyword [(#14181)](https://github.com/stdlib-js/stdlib/pull/14181) _(by Philipp Burckhardt, Athan Reines)_
+-   [`5ee4874`](https://github.com/stdlib-js/stdlib/commit/5ee48744ae9c4ba3a46ee2d4aa27a1ffb7362332) - **test:** migrate `stats/base/dists/weibull/logcdf` to ULP-based assertions [(#14109)](https://github.com/stdlib-js/stdlib/pull/14109) _(by Athan Reines)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
 -   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
