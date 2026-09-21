@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-12)
+## Unreleased (2026-09-21)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,14 @@
 
 <details>
 
+-   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
+-   [`073ca76`](https://github.com/stdlib-js/stdlib/commit/073ca761419f477f51a467b39b41f42a36572e91) - **test:** migrate `stats/base/dists/weibull/median` to ULP-based assertions [(#15182)](https://github.com/stdlib-js/stdlib/pull/15182) _(by Philipp Burckhardt)_
+-   [`f4d9f74`](https://github.com/stdlib-js/stdlib/commit/f4d9f7451504614a2b12f5c1040f354805ac99f7) - **test:** migrate `stats/base/dists/weibull/quantile` to ULP-based assertions [(#14917)](https://github.com/stdlib-js/stdlib/pull/14917) _(by Aryan kumar)_
+-   [`88fd76a`](https://github.com/stdlib-js/stdlib/commit/88fd76a1ce8fdef1b882b425aeb93f5ea36fa9b7) - **test:** migrate `stats/base/dists/weibull/pdf` to ULP-based assertions [(#14852)](https://github.com/stdlib-js/stdlib/pull/14852) _(by Athan Reines)_
+-   [`74233c5`](https://github.com/stdlib-js/stdlib/commit/74233c5624bb34ae4f69680fd44b214848c8b6b5) - **test:** migrate `stats/base/dists/weibull/mean` to ULP-based assertions [(#14810)](https://github.com/stdlib-js/stdlib/pull/14810) _(by Philipp Burckhardt)_
+-   [`efb4fd2`](https://github.com/stdlib-js/stdlib/commit/efb4fd28f74b135b473299c7d4b5bf534f84bce4) - **test:** migrate `stats/base/dists/weibull/entropy` to ULP-based assertions [(#14543)](https://github.com/stdlib-js/stdlib/pull/14543) _(by Athan Reines)_
+-   [`b22739d`](https://github.com/stdlib-js/stdlib/commit/b22739dd49f02b1b641d65320cec1a8e49815e23) - **test:** migrate `stats/base/dists/weibull/stdev` to ULP-based assertions [(#14469)](https://github.com/stdlib-js/stdlib/pull/14469) _(by Athan Reines)_
+-   [`295bef4`](https://github.com/stdlib-js/stdlib/commit/295bef4be4f92fbbd50f58a52d474fea9610381b) - **test:** migrate `stats/base/dists/weibull/cdf` to ULP-based assertions [(#14281)](https://github.com/stdlib-js/stdlib/pull/14281) _(by Athan Reines)_
 -   [`ed143dc`](https://github.com/stdlib-js/stdlib/commit/ed143dcf897b1fe7309d1686ee63ce605e3f545a) - **chore:** add keyword [(#14181)](https://github.com/stdlib-js/stdlib/pull/14181) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5ee4874`](https://github.com/stdlib-js/stdlib/commit/5ee48744ae9c4ba3a46ee2d4aa27a1ffb7362332) - **test:** migrate `stats/base/dists/weibull/logcdf` to ULP-based assertions [(#14109)](https://github.com/stdlib-js/stdlib/pull/14109) _(by Athan Reines)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
@@ -49,8 +57,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
