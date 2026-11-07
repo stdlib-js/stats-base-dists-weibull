@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-07)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108)
 -   [`93d712b`](https://github.com/stdlib-js/stdlib/commit/93d712b9f648a28afc6f039173a3715139a90991) - update parameter names [(#12487)](https://github.com/stdlib-js/stdlib/pull/12487)
 
 </section>
@@ -22,6 +23,16 @@
 
 <details>
 
+-   [`09f03dd`](https://github.com/stdlib-js/stdlib/commit/09f03dd17ff939ee738b0cf1f08bdd7b07a3ea0b) - **docs:** fix typo [(#16524)](https://github.com/stdlib-js/stdlib/pull/16524) _(by ItsAbir005)_
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - **fix:** clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108) _(by Philipp Burckhardt)_
+-   [`72cf0ed`](https://github.com/stdlib-js/stdlib/commit/72cf0edb51bfc20fe9b644fb64de03242f01966d) - **docs:** fix incorrect return annotations [(#15830)](https://github.com/stdlib-js/stdlib/pull/15830) _(by anee3)_
+-   [`f6d1d43`](https://github.com/stdlib-js/stdlib/commit/f6d1d439a1dd948313f43e8428a30e6ff5565975) - **test:** migrate `stats/base/dists/weibull/logpdf` to ULP-based assertions [(#15906)](https://github.com/stdlib-js/stdlib/pull/15906) _(by Philipp Burckhardt)_
+-   [`77a8a34`](https://github.com/stdlib-js/stdlib/commit/77a8a34619c64b448153b33f4665039384a4ff32) - **test:** migrate `stats/base/dists/weibull/variance` to ULP-based assertions [(#15634)](https://github.com/stdlib-js/stdlib/pull/15634) _(by Athan Reines)_
+-   [`5c4b613`](https://github.com/stdlib-js/stdlib/commit/5c4b61336167ea0936140e859f85df7f52278e63) - **docs:** update descriptions and clean-up [(#15625)](https://github.com/stdlib-js/stdlib/pull/15625) _(by Philipp Burckhardt)_
+-   [`8617b66`](https://github.com/stdlib-js/stdlib/commit/8617b6668b72b7163d92521b932c2346c855ca8b) - **test:** migrate `stats/base/dists/weibull/mode` to ULP-based assertions [(#15513)](https://github.com/stdlib-js/stdlib/pull/15513) _(by Athan Reines)_
+-   [`57344d1`](https://github.com/stdlib-js/stdlib/commit/57344d1f1e98fdb14b705d83b6127dbb9173bbbe) - **test:** migrate `stats/base/dists/weibull/kurtosis` to ULP-based assertions [(#15516)](https://github.com/stdlib-js/stdlib/pull/15516) _(by Athan Reines)_
+-   [`d3e9d24`](https://github.com/stdlib-js/stdlib/commit/d3e9d24323e6906c156d5401640fd692b854d135) - **test:** migrate `stats/base/dists/weibull/skewness` to ULP-based assertions [(#15484)](https://github.com/stdlib-js/stdlib/pull/15484) _(by Athan Reines)_
 -   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
 -   [`073ca76`](https://github.com/stdlib-js/stdlib/commit/073ca761419f477f51a467b39b41f42a36572e91) - **test:** migrate `stats/base/dists/weibull/median` to ULP-based assertions [(#15182)](https://github.com/stdlib-js/stdlib/pull/15182) _(by Philipp Burckhardt)_
 -   [`f4d9f74`](https://github.com/stdlib-js/stdlib/commit/f4d9f7451504614a2b12f5c1040f354805ac99f7) - **test:** migrate `stats/base/dists/weibull/quantile` to ULP-based assertions [(#14917)](https://github.com/stdlib-js/stdlib/pull/14917) _(by Aryan kumar)_
@@ -57,12 +68,14 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
+-   ItsAbir005
 -   Om-A-osc
 -   Philipp Burckhardt
+-   anee3
 
 </section>
 
